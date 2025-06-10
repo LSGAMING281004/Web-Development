@@ -1,0 +1,91 @@
+<html>
+<head>
+
+<style>
+
+input[id]
+{
+background-color:blue;
+color:red;
+}
+
+a:link
+{
+  color:pink;
+}
+
+a:visited
+{
+ color:red;
+}
+
+a:hover
+{
+  color:grey;
+}
+
+a:active
+{
+ color:blue;
+}
+
+#para1::first-letter
+{
+ 
+   background-color:cyan;
+   color:purple;
+   font-size:60px;
+
+}
+
+
+.parent
+{
+background-color:orange;
+}
+.parent div:first-child{
+color:green;
+background-color:purple;
+}
+
+.parent div:nth-child(2){
+color:white;
+}
+.parent div:last-child{
+color:red;
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+<form>
+<input type="text" id="text1" /> <br>
+<input type="text" id="text2" /> <br>
+<input type="text" id="text3" /> <br>
+<input type="button" name="button1" value="click" /> <br>
+
+
+<br>
+
+</form>
+
+<p id="para1" >
+
+this is is para element for pseudo element selector 
+
+</p>
+
+
+<a href="Sample5.html" target="blank">Click Me</a>
+<br><br>
+<div class="parent">
+<div>d1</div>
+<div>d2</div>
+<div>d3</div>
+</div>
+</body>
+</html>
